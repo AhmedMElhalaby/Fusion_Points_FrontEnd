@@ -159,6 +159,9 @@ div.circle-icon {
 .main-icon {
     background: #5cb85c url("../img/1.png") no-repeat 108% 80%;
 }
+.network-icon {
+    background: #2a4a4a url("../img/wifi2.png") no-repeat 50% 50%;
+}
 .withdraw-icon {
     background: #edbc09 url("../img/2.png") no-repeat 108% 112%;
 }
@@ -168,7 +171,13 @@ div.circle-icon {
 .account-icon {
     background: #2aacac url("../img/4.png") no-repeat 120% 92%;
 }
-.charge.active >li{
+.addnetwork-icon {
+    background: #2a4a4a url("../img/add.png") no-repeat 50% 50%;
+}
+.view-icon {
+    background: #2aacac url("../img/view.png") no-repeat 50% 50%;
+}
+.charge.active > li {
     border: 1px solid #5cb85c;
 }
 .withdraw.active >li{
@@ -341,13 +350,14 @@ input [type=text],
 .details-container,
 #success-container,
 #confirm-msg,
-#code-msg{
+#code-msg,
+.network_info {
     margin-top: 20px;
 }
 .details-container,
 #success-container,
 #confirm-msg,
-#code-msg{
+#code-msg {
     display: none;
 }
 
@@ -570,9 +580,32 @@ a.forget:hover{
 }
 
 
+
+/* Network pages*/
+.table-responsive.network_table {
+    margin:0
+}
+.new_network h5 {
+    font-size: 17px;
+    font-weight: bold
+}
+.new_network .radio {
+    display: inline-block;
+}
+.new_network .radio input[type=radio] {
+    margin-right: -15px !important;
+    margin-top: 2px !important;
+}
+.new_network .label-container {
+    text-align: left
+}
+.new_network .confirm-btn {
+    float: left;
+    margin-left: 11em;
+}
 /* Media queries*/
 @media (max-width: 990px) {
-  .balance {
+    .balance {
     margin-right: 0px;
   }
     img.logo{

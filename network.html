@@ -1,0 +1,205 @@
+﻿<!Doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>الشحن</title>
+        <!-- css files -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="css/sweetalert2.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        
+        <link href="img/whiteLogo.png" rel="icon">
+        
+    </head>
+    <body>
+     
+        <!-- header starts -->
+            <div class="header">
+                <div class="container">
+                    <img class="logo" src="img/whiteLogo.png">
+                    <div class="right-side">
+                        <span class="main-span hidden-xs hidden-sm">رقم الحساب: <span>1134567</span></span>
+                        <span class="main-span balance"> الرصيد المتاح: <span>1000 شيكل</span></span>
+                        <span class="main-span balance hidden-xs hidden-sm"> الرصيد المطلوب: <span>1000 شيكل</span></span>
+                    </div>
+                    <div class="left-side">
+                        <a href="##" class="sign-out">خروج</a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        <!-- header ends -->
+        <!--navbar starts -->
+            <div class="navbar navbar-static-top">
+                <div class="container">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollpase">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navHeaderCollpase">
+                        <ul class="nav navbar-nav navbar-right">
+                            <div class="charge active col-md-3 col-sm-6 col-xs-12">
+                                <li class="active">
+                                    <a href="index.html">
+                                        إضافة شبكة
+                                        <div class="circle-icon  addnetwork-icon"></div>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="charge  col-md-3 col-sm-6 col-xs-12">
+                                <li class="">
+                                    <a href="index.html">
+                                         عرض الشبكات 
+                                        <div class="circle-icon  view-icon"></div>
+                                    </a>
+                                </li>
+                            </div>
+                            <!--<div class="withdraw col-md-3 col-sm-6 col-xs-12">
+                                <li>
+                                    <a href="broadband.html">
+                                        سحب رصيد 
+                                        <div class="circle-icon  withdraw-icon"></div>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="moves col-md-3 col-sm-6 col-xs-12">
+                                <li>
+                                    <a href="moves.html">
+                                        الحركات
+                                        <div class="circle-icon  moves-icon"></div>
+                                    </a>
+                                </li>
+                            </div>-->
+                            <!--<div class="account col-md-3 col-sm-6 col-xs-12">
+                                <li>
+                                    <a href="account.html">
+                                        حسابي
+                                        <div class="circle-icon  account-icon"></div>
+                                    </a>
+                                </li>
+                            </div>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <!--navbar ends -->
+        <!-- main block starts -->
+            <div class="container">
+                <div class="white-block col-md-12 col-xs-12 col-sm-12">
+                    <div class="col-md-12 new_network">
+                        <h5> إضافة شبكة</h5>
+                        <div class="">
+                            <form class="form">
+                                <div class="form-container col-md-12 col-sm-12 col-xs-12">
+                                    <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                        <label>  اسم الشبكة</label>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                        <input class="form-control" type="text" />
+                                    </div>
+                                    <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                        <label>   الايميل</label>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                        <input class="form-control" type="text" />
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="form-container col-md-12 col-sm-12 col-xs-12">
+                                    <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                        <label>   اسم المستخدم</label>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                        <input class="form-control" type="text" />
+                                    </div>
+                                    <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                        <label>   كلمة المرور</label>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                        <input class="form-control" type="text" />
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="form-container col-md-12 col-sm-12 col-xs-12">
+                                    <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                        <label>   رقم الهاتف</label>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                        <input class="form-control" type="text" />
+                                    </div>
+                                    <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                        <label>   رقم الموبايل</label>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                        <input class="form-control" type="text" />
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="form-container col-md-12 col-sm-12 col-xs-12">
+                                    <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                        <label>    المدينة</label>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                        <select class="form-control">
+                                            <option>select</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                        </select>
+                                    </div>
+                                    <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                        <label>    العنوان</label>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                        <input class="form-control" type="text" />
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="form-container col-md-12 col-sm-12 col-xs-12">
+                                    <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                        <label>    owner</label>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                        <select class="form-control">
+                                            <option>select</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2 hidden-sm hidden-xs right-float"></div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4 right-float">
+                                        <div class="radio">
+                                            <label><input type="radio" name="optradio" checked>فعال</label>
+                                        </div>
+                                        <div class="radio">
+                                            <label><input type="radio" name="optradio">غير فعال</label>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <button  class="my-btn confirm-btn">إضافة</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        <!-- main block ends -->
+        <div class="footer">
+            <div class="container">All right reserved. Copyright &copy; 2020</div>
+        </div>
+        
+        
+    </body>
+    <!-- js files -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.all.js"></script>
+    <script src="js/sweetalert2.js"></script>
+    
+    <script src="js/main.js"></script>
+</html>
