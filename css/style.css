@@ -591,13 +591,26 @@ a.forget:hover{
 .new_network .new_link {
     font-size: 17px;
     font-weight: bold;
+    margin-right: 1em;
+    text-decoration:none
+}
+.new_network .new_link.active {
     border: 2px solid #23527c;
     padding: 6px;
-    margin-right: 1em;
+}
+.new_network form {
+    margin-top: 1em;
+    border-top: 1px solid #ececec;
 }
 .new_network .radio {
     /*display: inline-block;*/
     margin-right:1em
+}
+.new_network .table-responsive {
+    margin-bottom: 10px
+}
+.new_network .date {
+    margin:0
 }
 .new_network .radio input[type=radio] {
     margin-right: -15px !important;
@@ -617,10 +630,12 @@ a.forget:hover{
 .products_table {
     direction: ltr
 }
-
-
-
-
+.search_network .radio {
+    display: inline-block;
+}
+.search_network .form-check {
+    margin-left:20px
+}
 /* Media queries*/
 @media (max-width: 990px) {
     .balance {
