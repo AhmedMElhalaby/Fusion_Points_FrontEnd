@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
     font-family: "Helve-bold";
     font-weight: bold;
 	src: url('../font/HelveticaNeueW23-Bd.eot');
@@ -176,6 +176,9 @@ div.circle-icon {
 }
 .view-icon {
     background: #2aacac url("../img/view.png") no-repeat 50% 50%;
+}
+.doller-icon {
+    background: #2aacac url("../img/doller-icon.png") no-repeat 100% 100%;
 }
 .charge.active > li {
     border: 1px solid #5cb85c;
@@ -583,14 +586,18 @@ a.forget:hover{
 
 /* Network pages*/
 .table-responsive.network_table {
-    margin:0
+    margin:1em
 }
-.new_network h5 {
+.new_network .new_link {
     font-size: 17px;
-    font-weight: bold
+    font-weight: bold;
+    border: 2px solid #23527c;
+    padding: 6px;
+    margin-right: 1em;
 }
 .new_network .radio {
-    display: inline-block;
+    /*display: inline-block;*/
+    margin-right:1em
 }
 .new_network .radio input[type=radio] {
     margin-right: -15px !important;
@@ -603,6 +610,17 @@ a.forget:hover{
     float: left;
     margin-left: 11em;
 }
+.product_div {
+    padding-left: 15%;
+    padding-right: 10%;
+}
+.products_table {
+    direction: ltr
+}
+
+
+
+
 /* Media queries*/
 @media (max-width: 990px) {
     .balance {
