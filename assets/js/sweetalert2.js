@@ -99,6 +99,24 @@ var SweetAlert2Demo = function() {
                 }
             });
         });
+        $('#m_sweetalert_demo_88').click(function (e) {
+            swal({
+                title: 'هل تريد  شحن للمشترك؟',
+                text: "",
+                type: 'info',
+                showCancelButton: true,
+                confirmButtonText: 'شحن'
+            });
+        });
+        $('#m_sweetalert_demo_90').click(function (e) {
+            swal({
+                title: '    سيتم استرداد  مبلغ بقيمة  50 شيكل ',
+                text: "",
+                type: 'warning',
+                showCancelButton: true,
+                confirmButtonText: 'سحب'
+            });
+        });
 
         $('#m_sweetalert_demo_9').click(function(e) {
             swal({

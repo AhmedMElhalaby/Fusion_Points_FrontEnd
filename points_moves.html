@@ -23,6 +23,9 @@
                     <span class="main-span balance hidden-xs hidden-sm"> الرصيد المطلوب: <span>1000 شيكل</span></span>
                 </div>
                 <div class="left-side">
+                    <a href="##" data-toggle="tooltip" data-placement="top" title="شاشة النقطة" class="top_a"><i class="glyphicon glyphicon-refresh"></i> </a>
+                    <a href="##" data-toggle="tooltip" data-placement="top" title=" dashboard" class="top_a"><i class=" glyphicon glyphicon-stats"> </i></a>
+
                     <a href="##" class="sign-out">خروج</a>
                 </div>
                 <div class="clear"></div>
@@ -39,38 +42,39 @@
                 </button>
                 <div class="collapse navbar-collapse navHeaderCollpase">
                     <ul class="nav navbar-nav navbar-right">
-                        <div class="charge active col-md-3 col-sm-6 col-xs-12">
-                            <li class="active">
-                                <a href="index.html">
-                                    شحن Hotspot
+                        <div class="charge col-md-3 col-sm-6 col-xs-12">
+                            <li class="">
+                                <a href="points_managment.html">
+                                    نقاط البيع
+                                    <div class="circle-icon  network-icon"></div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="charge col-md-3 col-sm-6 col-xs-12">
+                            <li class="">
+                                <a href="users_managment.html">
+                                    إدارة المشتركين
                                     <div class="circle-icon  main-icon"></div>
                                 </a>
                             </li>
                         </div>
-                        <div class="withdraw col-md-3 col-sm-6 col-xs-12">
-                            <li>
-                                <a href="broadband.html">
-                                    شحن broadband
-                                    <div class="circle-icon  withdraw-icon"></div>
+                        <div class="account  col-md-3 col-sm-6 col-xs-12">
+                            <li class="">
+                                <a href="points_voucher.html">
+                                    سند قبض/صرف
+                                    <div class="circle-icon  doller-icon"></div>
                                 </a>
                             </li>
                         </div>
-                        <div class="moves col-md-3 col-sm-6 col-xs-12">
-                            <li>
-                                <a href="moves.html">
+                        <div class="moves active col-md-3 col-sm-6 col-xs-12">
+                            <li class="active">
+                                <a href="points_moves.html">
                                     الحركات
                                     <div class="circle-icon  moves-icon"></div>
                                 </a>
                             </li>
                         </div>
-                        <div class="account col-md-3 col-sm-6 col-xs-12">
-                            <li>
-                                <a href="account.html">
-                                    حسابي
-                                    <div class="circle-icon  account-icon"></div>
-                                </a>
-                            </li>
-                        </div>
+
                     </ul>
                 </div>
             </div>
@@ -79,11 +83,20 @@
         <!-- main block starts -->
         <div class="container">
             <div class="white-block col-md-12 col-xs-12 col-sm-12">
-                <div class="gray-bar col-md-12 col-xs-12 col-sm-12">
-                    أهلاً وسهلاً بك <span class="blue">مترو ماركت</span> في حساب الشحن  الخاص بشركة فيوجن
-                </div>
                 <div class="row">
                     <div class="container">
+                        <div class="form-container col-md-12 col-sm-12 col-xs-12">
+                            <div class="label-container col-md-1 col-sm-4 col-xs-5 right-float">
+                                <label>  اسم النقطة</label>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                <select class="form-control">
+                                    <option>select</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                </select>
+                            </div>
+                        </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 right-float">
                             <label>من</label>
                             <input placeholder="dd/mm/yyyy" type="text" class="date" />
@@ -211,11 +224,11 @@
         <div class="footer">
             <div class="container">All right reserved. Copyright &copy; 2015</div>
         </div>
+
         <!-- js files -->
         <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/main.js"></script>
-
     </body>
-   
+  
 </html>

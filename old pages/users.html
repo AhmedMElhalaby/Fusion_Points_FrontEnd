@@ -1,0 +1,181 @@
+﻿<!Doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>نقاط البيع</title>
+        <!-- css files -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/sweetalert2.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+        
+        <link href="assets/img/whiteLogo.png" rel="icon">
+        
+    </head>
+    <body>
+
+        <!-- header starts -->
+        <div class="header">
+            <div class="container">
+                <img class="logo" src="assets/img/whiteLogo.png">
+                <div class="right-side">
+                    <span class="main-span hidden-xs hidden-sm"> اسم الشبكة :  <span>   شبكة 1</span></span>
+                    <span class="main-span balance"> الرصيد المتاح: <span>500 شيكل</span></span>
+                    <span class="main-span balance hidden-xs hidden-sm"> الرصيد المطلوب: <span>1000 شيكل</span></span>
+                </div>
+                <div class="left-side">
+                    <a href="##" class="sign-out">خروج</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!-- header ends -->
+        <!--navbar starts -->
+        <div class="navbar navbar-static-top">
+            <div class="container">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollpase">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse navHeaderCollpase">
+                    <ul class="nav navbar-nav navbar-right">
+                        <div class="charge  col-md-3 col-sm-6 col-xs-12">
+                            <li class="">
+                                <a href="points.html">
+                                    نقاط البيع
+                                    <div class="circle-icon  network-icon"></div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="charge active col-md-3 col-sm-6 col-xs-12">
+                            <li class="active">
+                                <a href="users_managment.html">
+                                    إدارة المشتركين
+                                    <div class="circle-icon  main-icon"></div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="account col-md-3 col-sm-6 col-xs-12">
+                            <li>
+                                <a href="network_voucher.html">
+                                    سند قبض/صرف
+                                    <div class="circle-icon  doller-icon"></div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="moves col-md-3 col-sm-6 col-xs-12">
+                            <li>
+                                <a href="network_moves.html">
+                                    الحركات
+                                    <div class="circle-icon  moves-icon"></div>
+                                </a>
+                            </li>
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--navbar ends -->
+        <!-- main block starts -->
+        <div class="container">
+            <div class="white-block col-md-12 col-xs-12 col-sm-12">
+                <div class="col-md-12 new_network">
+                    <a class="new_link active" href="users.html">
+                        إضافة  مشترك
+                    </a>
+                    <a class="new_link" href="users_managment.html">
+                        عرض المشتركين
+                    </a>
+                    <!--<a class="new_link" href="user_charge.html">
+                        شحن/سحب رصيد
+                    </a>-->
+                    <div class="">
+                        <form class="form new_user">
+                            <div class="form-container col-md-12 col-sm-12 col-xs-12">
+                                <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                    <label>   اسم المستخدم</label>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                    <input class="form-control" type="text" />
+                                </div>
+                                <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                    <label>   كلمة المرور</label>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                    <input class="form-control" type="text" />
+                                </div>
+                                <div class="col-md-2">
+                                    <button class="btn btn-danger">Genertate</button>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="form-container col-md-12 col-sm-12 col-xs-12">
+                                <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                    <label>   الاسم كاملا</label>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                    <input class="form-control" type="text" />
+                                </div>
+                                <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                    <label>   البريد الإلكتروني</label>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                    <input class="form-control" type="text" />
+                                </div>
+                            </div>
+                            <div class="form-container col-md-12 col-sm-12 col-xs-12">
+                                <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                    <label>    اسم الحملة</label>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                    <input class="form-control" type="text" />
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="form-container col-md-12 col-sm-12 col-xs-12">
+                                <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                    <label>     رقم الهاتف</label>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                    <input class="form-control" type="text" />
+                                </div>
+                                <div class="label-container col-md-2 col-sm-4 col-xs-5 right-float">
+                                    <label>   العنوان </label>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-4 right-float">
+                                    <input class="form-control" type="text" />
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <button class="my-btn confirm-btn">إضافة</button>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                </div>
+                <div class="clear"></div>
+
+            </div>
+        </div>
+        <!-- main block ends -->
+        <div class="footer">
+            <div class="container">All right reserved. Copyright &copy; 2020</div>
+        </div>
+
+        <!-- js files -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/sweetalert2.all.js"></script>
+        <script src="assets/js/sweetalert2.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+   
+</html>
